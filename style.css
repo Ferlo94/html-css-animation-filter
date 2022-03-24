@@ -111,10 +111,14 @@
 
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    font-size: 60px;
     animation: rotazione-infinita-oraria 2s linear infinite;
 }
 
-.ex-11-icon:hover @keyframes rotazione-infinita-oraria {
+@keyframes rotazione-infinita-oraria {
 
     100% {
         transform: rotate(1turn);
